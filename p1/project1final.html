@@ -3,11 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Project 1</title>
     <link rel="stylesheet" href="skeleton-framework-1.1.1/src/skeleton.css">
     <link rel="stylesheet" href="skeleton-framework-1.1.1/src/normalize.css">
+    <style>
+        .custom-padding {padding: 5px;}
+        .large-image img {
+            width: 100%;
+            height: auto;
+            
+        }
+        .small-images img {
+            width: 100%;
+            height: auto;
+            
+        }
+        
+        
+    </style>
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <div class="container">
+        <div class="row custom-padding">
+           
+            <a class="button button-primary four columns"href="">Home</a>
+            <a class="button button-primary four columns"href="">About</a>
+            <a class="button button-primary two columns"href="">Services</a>
+            <a class="button button-primary two columns"href="">Contact</a>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Cameron and Ellie's Cooking Guide</h1>
+    </div>
+    <div class="container">
+        <h1>This Week's Easy Recipe Shoutouts:</h1>
+        <div class="row">
+            <div class="twelve columns large-image">
+                <img src="../project1images/pastabigimage.jpg" alt="Pasta Dish">
+                <h2>Penne Pasta with Marinara Sauce</h2>
+            </div>
+        </div>
+
+        
+        <div class="row">
+            <div class="four columns small-images h-100">
+                <img src="../project1images/boilingpasta.jpg" alt="Boiling Pasta">
+                <h2>Small Image 1 Description</h2>
+            </div>
+            <div class="four columns small-images h-100">
+                <img src="../project1images/marinara.jpg" alt="Marinara Sauce">
+                <h2>Small Image 2 Description</h2>
+            </div>
+            <div class="four columns small-images h-100">
+                <img src="../project1images/cheeseonpasta.jpg" alt="Pasta Dish with cheese">
+                <h2>Small Image 3 Description</h2>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+    <form class="custom-padding">
+        <h2>Request a Recipe!</h2>
+        <div class="row custom-padding">
+          <div class="six columns">
+            <label for="exampleEmailInput">Your email</label>
+            <input class="u-full-width" type="email" placeholder="student@ist363.com" id="exampleEmailInput">
+          </div>
+          <div class="six columns">
+            <label for="exampleRecipientInput">Requested Recipe</label>
+            <input class="u-full-width" type="email" placeholder="pb&j" id="recipeinput">
+          </div>
+        </div>
+        <div class="custom-padding"><input class="button-disabled" type="submit" value="Submit"></div>
+        
+      </form>
+</div>
+    
+    <footer class="custom-padding">
+        <h5>Copyright 2025</h5>
+    </footer>
+
+
 </body>
 </html>
